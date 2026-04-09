@@ -1,44 +1,44 @@
 {
   "site": {
-    "title": "Gianmarco Cavallo - Freelance front-end Developer",
-    "description": "I'm a developer based in Italy, passionate about user experience and specializing in engaging animations and micro-interactions. My primary tools of choice include: JavaScript, React, Solid.js, Astro, Svelte, and Node.js.",
+    "title": "Daniel Tuba - IT professional & Web Developer",
+    "description": "IT professional specializing in systems administration, network management, and modern web development. Skilled in building efficient IT solutions and responsive web applications.",
     "footer": {
       "year": "2026",
       "prefix": "Built on",
       "frameworkName": "React",
       "frameworkUrl": "https://react.dev/",
-      "author": "AI under the guidance of DanG-IT Professional"
+      "author": "Daniel Tuba"
     }
   },
   "seo": {
-    "personName": "Gianmarco",
-    "jobTitle": "Freelance Frontend Developer",
-    "worksFor": "Self-Employed",
-    "location": "Italy",
-    "countryCode": "IT",
-    "nationality": "Italy",
-    "publisherName": "Gianmarco",
+    "personName": "Daniel Tuba",
+    "jobTitle": "IT Professional & Web Developer",
+    "worksFor": "Intelligex Business Solutions",
+    "location": "Vancouver Island, BC",
+    "countryCode": "CA",
+    "nationality": "Canada",
+    "publisherName": "Daniel Tuba",
     "sameAs": [
-      "https://www.linkedin.com/in/gianmarco-cavallo/",
-      "https://github.com/Ladvace"
+      "https://www.linkedin.com/in/daniel-tuba-833a69390/",
+      "https://github.com/DanielTuba"
     ]
   },
   "intro": {
     "welcomeLabel": "welcome",
-    "name": "Gianmarco Cavallo",
-    "summary": "a software developer with strong focus on the user experience, animations and micro interactions",
+    "name": "Daniel Tuba",
+    "summary": "IT professional and web developer with experience in systems administration, network management, automation, and building modern web applications.",
     "socialButtons": [
       {
         "ariaLabel": "github profile",
         "screenReaderLabel": "GitHub Profile",
         "icon": "ri:github-fill",
-        "url": "https://github.com/Ladvace"
+        "url": "https://github.com/DanielTuba"
       },
       {
         "ariaLabel": "linkedin profile",
         "screenReaderLabel": "Linkedin Profile",
         "icon": "ri:linkedin-box-fill",
-        "url": "https://www.linkedin.com/in/gianmarco-cavallo/"
+        "url": "https://www.linkedin.com/in/daniel-tuba-833a69390/"
       },
       {
         "ariaLabel": "dribble profile",
@@ -59,33 +59,35 @@
   },
   "about": {
     "title": "About me",
-    "intro": "Hi, I'm Gianmarco, a front-end software developer from Italy.",
+    "intro": "Hi, I'm Daniel, an IT proffesional and web developer from Vancouver Island.",
     "toolsIntro": "My primary tools of choice includes:",
     "tools": [
+      "Windows & Linux Administration",
+      "Networking",
       "JavaScript",
       "React",
-      "Solidjs",
-      "Astro",
-      "Svelte",
-      "Nodejs"
+      "Next.js",
+      "Node.js",
+      "SQL & Databases",
+      "Automation & Scripting"
     ],
-    "passion": "Beyond coding, I'm passionate about design, illustration, animation and 3D modelling and traveling. An unusual hobby of mine is collecting vintage passports, they're interesting pieces of history to me.",
-    "approach": "While I have some preferred tools, I always choose the best one for the job, even if it's not on my usual list. My goal is to find the right solution for each project."
+    "passion": "I’m passionate about solving complex IT problems, automating workflows, and optimizing system performance while creating responsive web solutions.",
+    "approach": "I combine IT best practices with modern web technologies to deliver efficient, secure, and scalable solutions."
   },
   "contacts": {
-    "title": "Let's start working together!",
+    "title": "Get in Touch",
     "contactDetailsTitle": "Contact Details",
-    "email": "contact@gianmarcocavallo.com",
-    "location": "Italy",
+    "email": "daniel@intelligex.ca",
+    "location": "Vancouver Island, BC",
     "socialsTitle": "Socials",
     "socialLinks": [
       {
         "label": "Linkedin",
-        "url": "https://www.linkedin.com/in/gianmarco-cavallo/"
+        "url": "https://www.linkedin.com/in/daniel-tuba-833a69390/"
       },
       {
         "label": "Github",
-        "url": "https://github.com/Ladvace"
+        "url": "https://github.com/DanielTuba"
       },
       {
         "label": "Discord",
