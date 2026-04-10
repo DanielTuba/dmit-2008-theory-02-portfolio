@@ -95,7 +95,7 @@ export default function Home({ weather }) {
           title={profileData.sections.schoolAssignment.title}
         >
           <div className="flex h-full items-center justify-center rounded bg-darkslate-400/30 p-2">
-            {/* <Globe client:load /> */}
+            <Globe client:load />
             <p className="text-xs font-light text-neutral-200">
               {profileData.sections.schoolAssignment.placeholder}
             </p>
