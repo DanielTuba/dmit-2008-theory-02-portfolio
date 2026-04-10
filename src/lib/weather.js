@@ -28,7 +28,7 @@ export async function getWeatherForProfile(profile, apiKey) {
     if (!apiKey) {
         return {
             location,
-            error: "Add weather API key in local environment settings to show live weather",
+            error: "Add your weather API key in local environment settings to show live weather.",
         };
     }
 

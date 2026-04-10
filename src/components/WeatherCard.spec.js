@@ -48,7 +48,7 @@ describe("WeatherCard", () => {
 
         expect(screen.getByText("Edmonton")).toBeInTheDocument();
         expect(
-            screen.getByText("Unable to load current weather data right now.")
+            screen.getByText("Unable to load current weather right now.")
         ).toBeInTheDocument();
         expect(screen.queryByRole("img")).not.toBeInTheDocument();
     });
