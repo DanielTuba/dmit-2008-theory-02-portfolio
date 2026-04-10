@@ -4,10 +4,10 @@ import { vi } from "vitest";
 import WeatherCard from "./WeatherCard";
 
 vi.mock("./Card", () => ({
-    defualt: ({ title, children }) =>
+    default: ({ title, children }) =>
         createElement(
             "section",
-            -null,
+            null,
             title ? createElement("h2", null, title) : null,
             children
         ),
@@ -30,7 +30,7 @@ describe("WeatherCard", () => {
         expect(screen.getByText("Edmonton, CA")).toBeInTheDocument();
         expect(screen.getByText("13°C")).toBeInTheDocument();
         expect(screen.getByText("Moderate Rain")).toBeInTheDocument();
-        expect(screen.getByRole("img", { name: "Moderate Rain " })).toHaveAttribute(
+        expect(screen.getByRole("img", { name: "Moderate Rain" })).toHaveAttribute(
             "src",
             weather.iconUrl
         );
@@ -41,7 +41,7 @@ describe("WeatherCard", () => {
             createElement(WeatherCard, {
                 weather: {
                     location: "Edmonton",
-                    error: "Unavailable to load current weather right now.",
+                    error: "Unable to load current weather right now.",
                 },
             })
         );

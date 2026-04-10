@@ -4,7 +4,6 @@ import {
     getWeatherForProfile,
     getWeatherLocationFromProfile,
 } from "./weather";
-import { expect } from "vitest";
 
 describe("getWeatherLocationFromProfile", () => {
     it("prefers weather.location when provided", () => {
@@ -35,7 +34,7 @@ describe("getWeatherLocationFromProfile", () => {
     });
 });
 
-describe("getWatherForProfile", () => {
+describe("getWeatherForProfile", () => {
     const profile = {
         timeZone: { zone: "America/Edmonton" },
         contacts: { location: "Italy" },
@@ -82,7 +81,7 @@ describe("getWatherForProfile", () => {
         server.use(
             http.get(
                 "https://api.openweathermap.org/data/2.5/weather",
-                () => new HttpResponse(null, { stuts: 500 })
+                () => new HttpResponse(null, { status: 500 })
             )
         );
 

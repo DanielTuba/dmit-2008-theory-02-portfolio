@@ -12,7 +12,7 @@ export function getWeatherLocationFromProfile(profile) {
 
     const timeZone = profile?.timeZone?.zone;
     if (timeZone && timeZone.includes("/")) {
-        const cityFromTimeZone = timeZone.split("/").pop().replace(/_/g, "");
+        const cityFromTimeZone = timeZone.split("/").pop().replace(/_/g, " ");
         if (cityFromTimeZone) {
             return cityFromTimeZone;
         }
@@ -49,7 +49,7 @@ export async function getWeatherForProfile(profile, apiKey) {
 
         return {
             location: locationLabel || location,
-            teperatureC: data?.main?.temp ?? null,
+            temperatureC: data?.main?.temp ?? null,
             description: toTitleCase(current?.description || ""),
             iconUrl: current?.icon ? `https://openweathermap.org/img/wn/${current.icon}@2x.png` : null,
         };
