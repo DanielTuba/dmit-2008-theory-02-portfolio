@@ -22,7 +22,7 @@ export function getWeatherLocationFromProfile(profile) {
     return contactLocation || "Edmonton";
 }
 
-export async function getWeatherLocationFromProfile(profile, apiKey) {
+export async function getWeatherForProfile(profile, apiKey) {
     const location = getWeatherLocationFromProfile(profile);
 
     if (!apiKey) {
