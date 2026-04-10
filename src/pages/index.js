@@ -8,8 +8,8 @@ import AboutMe from "../components/AboutMe";
 import Now from "../components/Now";
 import WeatherCard from "../components/WeatherCard";
 import profileData from "@/data/profile.json";
-import { getWatherForProfile } from "@/lib/weather";
-import { Globe } from "../components/Globe";
+import { getWeatherForProfile } from "@/lib/weather";
+// import { Globe } from "../components/Globe";
 
 export async function getServerSideProps() {
   const weather = await getWeatherForProfile(
@@ -95,7 +95,7 @@ export default function Home({ weather }) {
           title={profileData.sections.schoolAssignment.title}
         >
           <div className="flex h-full items-center justify-center rounded bg-darkslate-400/30 p-2">
-            <Globe client:load />
+            {/* <Globe client:load /> */}
             <p className="text-xs font-light text-neutral-200">
               {profileData.sections.schoolAssignment.placeholder}
             </p>
